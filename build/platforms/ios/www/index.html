@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta name="description" content="syncfusion" />
+    <meta name="author" content="syncfusion" />
+    <title>OrubaseApplication1</title>
+    <link rel="stylesheet" href="css/ej.mobile.all.min.css" />
+    <!-- Sample level styles will be included here -->
+    <link rel="stylesheet" href="css/sample.css" />
+    <script type="text/javascript" src="scripts/jquery.globalize.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="scripts/jsrender.min.js"></script>   
+    <script type="text/javascript" src="scripts/ej.mobile.all.min.js"></script>
+    <!-- Uncomment the below scripts to integrate Orubase UI with Angular JS -->
+    <!--<script type="text/javascript" src="scripts/angular.min.js"></script>
+    <script type="text/javascript" src="scripts/ej.widget.angular.min.js"></script>-->
+    <!-- Uncomment the below scripts to integrate Orubase UI with Knockout JS -->
+    <!--<script type="text/javascript" src="scripts/knockout.min.js"></script>
+    <script type="text/javascript" src="scripts/ej.widget.ko.min.js"></script>-->
+    <script type="text/javascript" src="cordova.js"></script>
+    <!-- This script is specifically included to switch the user agent. !-->
+    <script type="text/javascript" src="scripts/optionswitcher.js"></script>
+    <!-- Sample level scripts will be included here -->
+    <script type="text/javascript" src="scripts/sample.js"></script>
+</head>
+<body>
+    <div data-role="appview" class="e-m-user-select tabtemplate">
+        <div id="Music" class="tabcontent">
+            Design your Music here
+        </div>
+        <div id="Album" class="tabcontent">
+            Design your Album here
+        </div>
+        <div id="Songs" class="tabcontent">
+            Design your Playlist here
+        </div>
+        <div data-role="ejmtab" id="tabdefault" data-ej-android-position="normal" data-ej-windows-position="normal"
+             data-ej-flat-position="normal">
+            <ul>
+                <li data-ej-ios7-imageclass="e-m-icon-music" data-ej-href="#Music" data-ej-text='Music'>
+                </li>
+                <li data-ej-ios7-imageclass="e-m-icon-photos" data-ej-href="#Album" data-ej-text='Album'>
+                </li>
+                <li data-ej-ios7-imageclass="e-m-icon-playlist" data-ej-href="#Songs" data-ej-text='Songs'>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
